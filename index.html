@@ -2,68 +2,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Keshav Bemi Games</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #1a1a2e;
-      color: #f0f0f0;
-    }
-    header {
-      background-color: #e94560;
-      padding: 1rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
-      padding: 2rem;
-    }
-    .game {
-      background-color: #16213e;
-      padding: 1rem;
-      border-radius: 12px;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    }
-    .game img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-    }
-    .game h2 {
-      font-size: 1.2rem;
-      margin: 0.5rem 0;
-    }
-    .download-btn {
-      display: inline-block;
-      padding: 0.5rem 1rem;
-      margin-top: 0.5rem;
-      background-color: #0f3460;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      transition: background 0.3s;
-    }
-    .download-btn:hover {
-      background-color: #1f4068;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEMI GAMES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #00C853, #B2FF59);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+            font-size: 2em;
+        }
+        h1 img {
+            width: 40px;
+            margin-right: 10px;
+        }
+        .game-card {
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .game-info {
+            display: flex;
+            align-items: center;
+        }
+        .game-info img {
+            width: 70px;
+            height: 70px;
+            border-radius: 15px;
+            margin-right: 15px;
+        }
+        .ratings {
+            background: #00C853;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .platforms {
+            margin-top: 10px;
+        }
+        .platforms span {
+            display: inline-block;
+            padding: 5px 10px;
+            margin-right: 10px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .ios { background: #e0e0e0; color: #555; }
+        .android { background: #00C853; color: white; }
+        .footer {
+            background: #6A1B9A;
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .footer img {
+            width: 80px;
+            margin-right: 20px;
+        }
+        .footer .text {
+            font-size: 1.2em;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Keshav Bemi Games</h1>
-  </header>
-  <main class="container">
-    <!-- Game cards here (shortened for brevity) -->
-  </main>
+    <div class="container">
+        <h1><img src="controller_icon.png" alt="controller">Games</h1>
+
+        <div class="game-card">
+            <div class="game-info">
+                <img src="gta_image.jpg" alt="GTA KV7">
+                <div>
+                    <strong>GTA KV7</strong><br>
+                    <small>👤 1,000,000+ Download</small><br>
+                    <strong>Latest: 1.0.3</strong>
+                    <div class="platforms">
+                        <span class="ios">iOS</span>
+                        <span class="android">Android</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ratings">⭐ 4,8</div>
+        </div>
+
+        <div class="game-card">
+            <div class="game-info">
+                <img src="free_fire_image.jpg" alt="Free Fire KV">
+                <div>
+                    <strong>Free Fire KV</strong><br>
+                    <small>👤 500,000+ Download</small><br>
+                    <strong>Latest: 1.0.1</strong>
+                    <div class="platforms">
+                        <span class="ios">iOS</span>
+                        <span class="android">Android</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ratings">⭐ 4,5</div>
+        </div>
+
+        <div class="footer">
+            <img src="bemi_logo.jpg" alt="BEMI Logo">
+            <div class="text">
+                📺 @bemi_gamers21<br>
+                Subscribe to our YouTube channel
+            </div>
+        </div>
+    </div>
 </body>
 </html>
