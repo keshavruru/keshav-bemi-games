@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bemi Gamers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #a0f0c0, #34d399);
+      color: #000;
+    }
+    header {
+      text-align: center;
+      padding: 30px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    header img {
+      width: 40px;
+      margin-right: 10px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+    .game-card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .game-left {
+      display: flex;
+      align-items: center;
+    }
+    .game-left img {
+      width: 70px;
+      height: 70px;
+      border-radius: 16px;
+      margin-right: 15px;
+    }
+    .game-info h2 {
+      margin: 0;
+      font-size: 1.2em;
+    }
+    .game-info p {
+      margin: 5px 0;
+      font-size: 0.9em;
+    }
+    .latest {
+      font-weight: bold;
+    }
+    .btn-container {
+      margin-top: 10px;
+    }
+    .btn {
+      padding: 6px 12px;
+      border-radius: 10px;
+      border: none;
+      margin-right: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 0.85em;
+    }
+    .ios {
+      background: #e0e0e0;
+    }
+    .android {
+      background: #22c55e;
+      color: white;
+    }
+    .rating {
+      background: #22c55e;
+      color: white;
+      padding: 6px 10px;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .youtube-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #9333ea;
+      border-radius: 20px;
+      padding: 20px;
+      max-width: 600px;
+      margin: 40px auto;
+      color: white;
+    }
+    .youtube-section img {
+      width: 90px;
+      height: auto;
+      border-radius: 12px;
+    }
+    .youtube-text {
+      flex: 1;
+      margin-left: 20px;
+    }
+    .youtube-text a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="gamepad_icon.png" alt="Game Icon" />
+    <h1>Games</h1>
+  </header>
+
+  <div class="game-card">
+    <div class="game-left">
+      <img src="gta_kv7.png" alt="GTA KV7">
+      <div class="game-info">
+        <h2>GTA KV7</h2>
+        <p>👥 1,000,000+ Download</p>
+        <p class="latest">Latest: <strong>1.0.3</strong></p>
+        <div class="btn-container">
+          <a href="https://drive.google.com/file/d/1FnGr0wizIIozKCzLWZF3sC4zPGbiG73k/view?usp=drivesdk" class="btn ios" target="_blank">iOS</a>
+          <a href="https://drive.google.com/file/d/1FnGr0wizIIozKCzLWZF3sC4zPGbiG73k/view?usp=drivesdk" class="btn android" target="_blank">Android</a>
+        </div>
+      </div>
+    </div>
+    <div class="rating">⭐ 4.8</div>
+  </div>
+
+  <div class="game-card">
+    <div class="game-left">
+      <img src="free_fire_kv.png" alt="Free Fire KV">
+      <div class="game-info">
+        <h2>Free Fire KV</h2>
+        <p>👥 500,000+ Download</p>
+        <p class="latest">Latest: <strong>1.0.1</strong></p>
+        <div class="btn-container">
+          <a href="https://drive.google.com/file/d/133mt3QtH0ie8X0VV64ZHh1xIrreO8Y83/view?usp=drivesdk" class="btn ios" target="_blank">iOS</a>
+          <a href="https://drive.google.com/file/d/133mt3QtH0ie8X0VV64ZHh1xIrreO8Y83/view?usp=drivesdk" class="btn android" target="_blank">Android</a>
+        </div>
+      </div>
+    </div>
+    <div class="rating">⭐ 4.5</div>
+  </div>
+
+  <div class="youtube-section">
+    <img src="bemi_logo_keshav.png" alt="Bemi Games Logo">
+    <div class="youtube-text">
+      <a href="https://youtube.com/@bemi_gamers21?feature=shared" target="_blank">@bemi_gamers21</a><br>
+      Subscribe to our YouTube channel
+    </div>
+  </div>
+</body>
+</html>
